@@ -5,5 +5,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distancia"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/total_de_quilometros"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/preco"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/preco_por_litro"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/autonomia"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/kms_por_litro"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/seu_gasto_total_sera_de"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/valor_total"
+        android:textAllCaps="true"
+        android:textSize="38sp"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/green_valor_total"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/green_valor_total"
+        android:padding="16dp"
+        android:text="@string/calcular" />
+
 </LinearLayout>
